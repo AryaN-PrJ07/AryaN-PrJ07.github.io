@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Prajapati | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="header-nav">
+            <a href="#about" class="logo">AP</a>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="sidebar">
+    <div class="profile-pic">
+        <img src="images/profile.jpg" alt="Profile Picture">
+       
+    </div>
+    <h1>Aryan Prajapati</h1>
+    <p>Software Developer</p>
+   
+    
+    
+   
+</div>
+
+    <div class="main-content">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div>
+            <p>Hello! I'm a dedicated Software Developer with a strong background in various programming languages and technologies. With experience in C++, Python, and SQL, I specialize in building robust and scalable applications. I am proficient in using developer tools like GitHub and have hands-on experience with cutting-edge technologies such as TensorFlow, PyTorch, Flask, Django, and TensorRT.</p>
+            </div>
+        </section>
+
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Summer Intern at DRDO, Ministry of Defence, Delhi</h3>
+                <p>In this role, I performed cryptanalysis on stream ciphers using deep learning techniques, specifically analyzing RC4 and A5/1. I identified vulnerabilities in RC4, while A5/1 met expected security levels. My findings were also published in the International Journal of Computer Applications (IJCA) .</p>
+            </div>
+            <div class="experience-item">
+                <h3>Intern at BitByte Robotronix</h3>
+                <p>During my internship at BitByte Robotronix, I worked on AI-driven projects related to human behavior, medical imaging, and healthcare technology. I developed a clinical aid tool using a segmentation model to analyze corneal neovascularization. Additionally, I designed a cardiac monitoring system that integrated ECG signals and edge IoT (Jetson Orin Nano), utilizing deep learning and TensorRT for deployment.</p>
+            </div>
+        </section>
+
+        
+       
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-item left">
+                <div class="project-content">
+                    <h3><a href="https://github.com/AryaNP02/Real-Time-Brain-Tumor-Segmentation-System" target="_blank" class="no-style">Real-Time Brain Tumor Segmentation System</a></h3>
+                    <p>Developed a web-based system using a U-Net model for efficient brain tumor identification. Achieved 99.99% accuracy, 93% F1-score, and 94% Dice coefficient, demonstrating expertise in advanced deep learning techniques.</p>
+                </div>
+            </div>
+            <div class="project-item right">
+                <div class="project-content">
+                    <h3><a href="https://github.com/AryaNP02/Real-Time-Indian-Sign-Language-Hand-Gesture-Recognition-System-" target="_blank" class="no-style">Real-Time Indian Sign Language Hand Gesture Recognition System</a></h3>
+                    <p>Developed a real-time multi-modal hand gesture detection system using MediaPipe and machine learning models for 26 English alphabet gestures. Managed the development of a large dataset crucial for system training and validation. Achieved near-perfect detection accuracy of 99.99%. Technologies used: MediaPipe, SVM, KNN, OpenCV.</p>
+                </div>
+            </div>
+            <div class="project-item right">
+                <div class="project-content">
+                    <h3><a href="https://github.com/AryaNP02/Real-Time-Stress-Recognition-System-" target="_blank" class="no-style">Real-Time StressRecognition System</a></h3>
+                    <p>The real-time stress recognition system detects and classifies human emotions, focusing on happiness, anger, and neutrality. It utilizes computer vision techniques to analyze facial expressions. The system achieves high accuracy, particularly in identifying stress-related states. </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="publication-item">
+                <h3><a href="https://www.ijcaonline.org/archives/volume185/number28/32867-2023923028/" target="_blank" class="no-style">Cryptanalysis of Stream Cipher Using Deep Learning Tactics</a></h3>
+
+                <p>Performed cryptanalysis on RC4 and A5/1 stream ciphers, using deep learning to predict encryption bits from given keys. Identified vulnerabilities in RC4, while A5/1 displayed expected security levels. Published in the International Journal of Computer Applications (IJCA), Vol. 185 No. 28, DOI: 10.5120/ijca2023923028.</p>
+            </div>
+       
+        </section>
+
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'm always open to new opportunities and collaborations. If you'd like to reach out, feel free to send me an email or call me using giving links. I'm looking forward to connecting with you!</p>
+            <div class="icon-container">
+                <a href="javascript:void(0)" class="icon-link" onclick="copyEmailToClipboard('aryan.prajapati09828@gmail.com')" title="email">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a href="javascript:void(0)" class="icon-link" onclick="copyPhoneToClipboard('+91-9893622737')" title="phone number">
+                    <i class="fa fa-phone"></i>
+                </a>
+                <a href="https://github.com/AryaNP02" class="icon-link" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+       
+        </section>
+    </div>
+</body>
+</html>
